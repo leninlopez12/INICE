@@ -1,0 +1,1 @@
+<img src="{{ asset('img/logos/logoinice.png') }}" alt="logo inice" class="w-48 h-auto animate-bounce-in">

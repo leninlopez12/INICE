@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+.text-outline {
+  -webkit-text-stroke: 2px #3b82f6; /* grosor + color (ejemplo azul Tailwind: indigo-600) */
+  color: transparent; /* relleno transparente */
+}
