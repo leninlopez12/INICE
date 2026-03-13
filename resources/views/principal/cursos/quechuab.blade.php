@@ -549,7 +549,7 @@ hover:border-cyan-400/40 transition duration-500
 hover:scale-[1.04] hover:-translate-y-1">
 
 <img 
-src="{{ asset('img/logos/sap.png') }}"
+src="{{ asset('img/logos/SAP.png') }}"
 class="max-h-24 sm:max-h-28 lg:max-h-32 w-auto object-contain mb-6 transition duration-500 group-hover:scale-110"
 >
 
