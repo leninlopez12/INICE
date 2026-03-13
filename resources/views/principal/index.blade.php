@@ -250,7 +250,7 @@
 
     <!-- CTA -->
     <div class="mt-20 text-center">
-      <a href="#"
+      <a href="{{ route('cursos') }}"
         class="inline-block px-10 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-500 to-indigo-600 shadow-xl hover:scale-105 transition-transform">
         Ver todos los cursos
       </a>
@@ -415,6 +415,31 @@
         <!-- GRID -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
 
+
+                         <!-- CARD -->
+            <div class="group perspective-[1200px]">
+                <div class="relative h-full rounded-3xl overflow-hidden
+                    bg-white/10 backdrop-blur-xl
+                    border border-white/20
+                    shadow-[0_30px_80px_rgba(0,0,0,0.35)]
+                    transform-gpu transition-all duration-500
+                    group-hover:-translate-y-5 group-hover:-rotate-x-6">
+
+                    <img src="{{ asset('img/cursos/nuevos/QUECHUA.webp') }}"
+                         alt="Curso INICE"
+                         class="w-full h-72 object-cover">
+
+                    <div class="p-6 space-y-4 text-white">
+                        <h3 class="text-lg font-semibold">
+                            QUECHUA Básico
+                        </h3>
+                        <a href="{{ route('quechuab') }}" class="inline-block text-md font-medium text-blue-300 hover:text-blue-200">
+                            Ver curso →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <!-- CARD -->
             <div class="group perspective-[1200px]">
                 <div class="relative h-full rounded-3xl overflow-hidden
@@ -487,29 +512,7 @@
                 </div>
             </div>
 
-            <!-- CARD -->
-            <div class="group perspective-[1200px]">
-                <div class="relative h-full rounded-3xl overflow-hidden
-                    bg-white/10 backdrop-blur-xl
-                    border border-white/20
-                    shadow-[0_30px_80px_rgba(0,0,0,0.35)]
-                    transform-gpu transition-all duration-500
-                    group-hover:-translate-y-5 group-hover:-rotate-x-6">
 
-                    <img src="{{ asset('img/cursos/nuevos/cursomarketing.webp') }}"
-                         alt="Curso INICE"
-                         class="w-full h-72 object-cover">
-
-                    <div class="p-6 space-y-4 text-white">
-                        <h3 class="text-lg font-semibold">
-                            Marketing Digital Profesional
-                        </h3>
-                        <a href="#" class="inline-block text-md font-medium text-blue-300 hover:text-blue-200">
-                            Ver curso →
-                        </a>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -545,17 +548,16 @@
     </div>
 
     <div class="flex justify-center">
-      <div class="group perspective-[1200px]">
-        <div class="w-80 h-96 bg-white rounded-2xl shadow-2xl border border-slate-200 transform-gpu transition-all duration-500 group-hover:rotate-y-6 group-hover:-rotate-x-3">
-          <div class="h-full p-6 flex flex-col justify-between">
-            <h3 class="font-bold text-slate-800">Certificado Digital</h3>
-            <div class="w-28 h-28 bg-slate-100 rounded-xl mx-auto flex items-center justify-center">
-              QR
-            </div>
-            <p class="text-xs text-slate-500">Código: INICE-2025-XXXX</p>
-          </div>
-        </div>
-      </div>
+<div class="relative flex items-center justify-center h-full">
+
+<img 
+src="{{ asset('img/certificadocoursee.png') }}"
+class="w-full max-w-xl h-auto object-contain 
+transition duration-700 ease-out 
+hover:scale-105 animate-float"
+/>
+
+</div>
     </div>
 
   </div>
@@ -661,6 +663,35 @@
 
             <span class="relative text-lg md:text-xl font-medium tracking-widest text-indigo-800 uppercase">
                 Seguimos Avanzando Perú
+            </span>
+        </div>
+    </div>
+    <div class="group perspective-[1000px]">
+        <div class="relative h-24 rounded-2xl bg-white
+            border border-indigo-300
+            flex items-center justify-center
+            transition-all duration-500 transform-gpu
+            group-hover:-translate-y-2 group-hover:-rotate-x-3">
+
+            <div class="absolute inset-0 rounded-2xl bg-indigo-50 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <span class="relative text-lg md:text-xl font-medium tracking-widest text-indigo-800 uppercase">
+                Centro de Actualización Docente
+            </span>
+        </div>
+    </div>
+
+      <div class="group perspective-[1000px]">
+        <div class="relative h-24 rounded-2xl bg-white
+            border border-blue-300
+            flex items-center justify-center
+            transition-all duration-500 transform-gpu
+            group-hover:-translate-y-2 group-hover:rotate-x-3">
+
+            <div class="absolute inset-0 rounded-2xl bg-blue-50 opacity-0 group-hover:opacity-100 transition"></div>
+
+            <span class="relative text-lg md:text-xl font-semibold tracking-wide text-blue-800">
+                Centro Peruano de Desarrollo Profesional - Sede PUNO
             </span>
         </div>
     </div>

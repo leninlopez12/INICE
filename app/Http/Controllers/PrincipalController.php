@@ -27,5 +27,8 @@ class PrincipalController extends Controller
     public function cienciadedatos(){
         return view('principal.cursos.cienciadedatos');
     }
+    public function quechuab(){
+        return view('principal.cursos.quechuab');
+    }
 
 }

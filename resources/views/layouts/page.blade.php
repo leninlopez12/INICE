@@ -98,8 +98,8 @@
             <div class="h-6 border-l border-white mx-2"></div>
             <div class="flex space-x-4">
                 <a href="https://web.facebook.com/iniceperu" class="text-sky-300 hover:text-sky-600 lg:text-2xl text-lg"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-red-500 hover:text-red-600 lg:text-2xl text-lg"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="text-fuchsia-400 hover:text-fuchsia-600 lg:text-2xl text-lg"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCeuVbGo1j1JSixeojSAF68w" class="text-red-500 hover:text-red-600 lg:text-2xl text-lg"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/institutoinice/" class="text-fuchsia-400 hover:text-fuchsia-600 lg:text-2xl text-lg"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
@@ -491,9 +491,9 @@
 
         <div class="flex gap-4 pt-2 text-2xl text-slate-200">
             <a href="https://web.facebook.com/iniceperu" class="text-blue-400 transition"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="text-fuchsia-400 transition"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/institutoinice/" class="text-fuchsia-400 transition"><i class="fab fa-instagram"></i></a>
             <a href="#" class="text-rose-400 transition"><i class="fab fa-tiktok"></i></a>
-            <a href="#" class="text-red-600 transition"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/channel/UCeuVbGo1j1JSixeojSAF68w" class="text-red-600 transition"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
 

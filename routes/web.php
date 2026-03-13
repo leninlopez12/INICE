@@ -16,6 +16,7 @@ Route::get('/reclamaciones',[PrincipalController::class,'reclamaciones'])->name(
 
 Route::get('/cursos',[PrincipalController::class,'cursos'])->name('cursos');
 Route::get('/cursos/ciencia-de-datos',[PrincipalController::class,'cienciadedatos'])->name('cienciadedatos');
+Route::get('/cursos/quechua-basico',[PrincipalController::class,'quechuab'])->name('quechuab');
 
 //certificados
 Route::get('/certificados',[HomeController::class,'pagina'])->name('pagina');
